@@ -2,7 +2,7 @@ import withPWAInit from "@ducanh2912/next-pwa";
 import type { NextConfig } from "next";
 
 const withPWA = withPWAInit({
-  dest: "puclic", // Output directory for service worker and manifest
+  dest: "public", // Output directory for service worker and manifest
 });
 
 const nextConfig: NextConfig = {
